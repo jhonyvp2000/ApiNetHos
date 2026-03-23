@@ -1,0 +1,95 @@
+﻿{
+    "success":  true,
+    "data":  [
+                 {
+                     "id":  1,
+                     "documento":  "DNI",
+                     "nombres":  "ALONSO RUBÃN",
+                     "apellidoPaterno":  "PAREDES",
+                     "apellidoMaterno":  "RENGIFO",
+                     "fechaNacimiento":  "1983-04-24T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  2,
+                     "documento":  "DNI",
+                     "nombres":  "EUSEBIO  ",
+                     "apellidoPaterno":  "CALDERON",
+                     "apellidoMaterno":  "PRADO",
+                     "fechaNacimiento":  "1959-03-05T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  3,
+                     "documento":  "DNI",
+                     "nombres":  "DORIS  ",
+                     "apellidoPaterno":  "CASTAÃÂ±EDA",
+                     "apellidoMaterno":  "SANCHEZ",
+                     "fechaNacimiento":  "1965-09-09T00:00:00.000Z",
+                     "sexo":  "F"
+                 },
+                 {
+                     "id":  4,
+                     "documento":  "DNI",
+                     "nombres":  "ERVIN  ",
+                     "apellidoPaterno":  "FLORES",
+                     "apellidoMaterno":  "LAZO",
+                     "fechaNacimiento":  "1957-02-04T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  5,
+                     "documento":  "DNI",
+                     "nombres":  "SEGUNDO NICANOR ",
+                     "apellidoPaterno":  "CARDENAS",
+                     "apellidoMaterno":  "RIOS",
+                     "fechaNacimiento":  "1962-03-25T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  6,
+                     "documento":  "DNI",
+                     "nombres":  "MARIANA YAMILE ",
+                     "apellidoPaterno":  "AREVALO",
+                     "apellidoMaterno":  "CORONADO",
+                     "fechaNacimiento":  "2023-01-01T00:00:00.000Z",
+                     "sexo":  "F"
+                 },
+                 {
+                     "id":  7,
+                     "documento":  "DNI",
+                     "nombres":  "BETHY  ",
+                     "apellidoPaterno":  "MENDOZA",
+                     "apellidoMaterno":  "AREVALO",
+                     "fechaNacimiento":  "1955-06-08T00:00:00.000Z",
+                     "sexo":  "F"
+                 },
+                 {
+                     "id":  8,
+                     "documento":  "DNI",
+                     "nombres":  "RENE  ",
+                     "apellidoPaterno":  "BARDALES",
+                     "apellidoMaterno":  "SANGAMA",
+                     "fechaNacimiento":  "1964-03-01T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  9,
+                     "documento":  "DNI",
+                     "nombres":  "GUILLERMO ELWIS ",
+                     "apellidoPaterno":  "CARDENAS",
+                     "apellidoMaterno":  "AREVALO",
+                     "fechaNacimiento":  "1958-06-26T00:00:00.000Z",
+                     "sexo":  "M"
+                 },
+                 {
+                     "id":  10,
+                     "documento":  "DNI",
+                     "nombres":  "HERNAN OSCAR ",
+                     "apellidoPaterno":  "PICHIULE",
+                     "apellidoMaterno":  "CARHUAMACA",
+                     "fechaNacimiento":  "1957-05-11T00:00:00.000Z",
+                     "sexo":  "M"
+                 }
+             ]
+}
