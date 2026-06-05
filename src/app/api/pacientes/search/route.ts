@@ -75,7 +75,10 @@ export async function GET(request: NextRequest) {
         fechaNacimiento: pacienteDato.fechaNacimiento,
         sexo: pacienteDato.sexo,
         telefono: pacienteDato.telefono,
-        ubigeoinei: sql<string>`(SELECT TOP 1 RTRIM(CODUBIGEO) FROM ASISTENCIAL.PACIENTEUBIGEO WHERE IDPACIENTE = ${paciente.idpaciente} AND ORIGEN = 'DOMICILIO')`,
+        codigoInei: sql<string>`(SELECT TOP 1 RTRIM(U.CODIGOINEI) FROM ASISTENCIAL.PACIENTEUBIGEO PU INNER JOIN SITIO.UBIGEO U ON PU.CODUBIGEO = U.CODIGO WHERE PU.IDPACIENTE = ${paciente.idpaciente} AND PU.ORIGEN = 'DOMICILIO')`,
+        departamento: sql<string>`(SELECT TOP 1 RTRIM(U.DEPARTAMENTO) FROM ASISTENCIAL.PACIENTEUBIGEO PU INNER JOIN SITIO.UBIGEO U ON PU.CODUBIGEO = U.CODIGO WHERE PU.IDPACIENTE = ${paciente.idpaciente} AND PU.ORIGEN = 'DOMICILIO')`,
+        provincia: sql<string>`(SELECT TOP 1 RTRIM(U.PROVINCIA) FROM ASISTENCIAL.PACIENTEUBIGEO PU INNER JOIN SITIO.UBIGEO U ON PU.CODUBIGEO = U.CODIGO WHERE PU.IDPACIENTE = ${paciente.idpaciente} AND PU.ORIGEN = 'DOMICILIO')`,
+        distrito: sql<string>`(SELECT TOP 1 RTRIM(U.DISTRITO) FROM ASISTENCIAL.PACIENTEUBIGEO PU INNER JOIN SITIO.UBIGEO U ON PU.CODUBIGEO = U.CODIGO WHERE PU.IDPACIENTE = ${paciente.idpaciente} AND PU.ORIGEN = 'DOMICILIO')`,
         direccion: sql<string>`(SELECT TOP 1 DIRECCION FROM ASISTENCIAL.PACIENTEUBIGEO WHERE IDPACIENTE = ${paciente.idpaciente} AND ORIGEN = 'DOMICILIO')`,
       })
       .from(paciente)
